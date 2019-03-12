@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: rujealfon/rujealfon.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
@@ -19,29 +19,48 @@ linkedin_username: rujealfon
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  A technically savvy web developer, has a long track record of creating dynamic, rich and interesting web portals, and of providing long term solutions to front-end problems. Working in a fast paced environment and producing a high volume of websites. Responsible for participating in the full life cycle of new website development projects, and for implement and maintaining best practice procedures in all areas of work. Also in charge of writing, developing and managing the content of websites. Designing, coding and modifying websites, from layout to function and according to a client's specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
-
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
-
-# Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
-
-# Education Section
-# educaton_title: Education #(Use this to override about education section title)
+   - JavaScript
+   - JQuery
+   - HTML
+   - HTML5
+   - CSS
+   - CSS3
+   - Web Programming Skills
+   - E-Commerce
+   - Teamwork
+   - Verbal Communication
+   - Cross-Browser Compatibility
+   - Web User Interface Design (UI)
+   - Security Principles
+   - Object-Oriented Design
+   - Web Services (REST/SOAP)
+   - Multimedia Content Development
+   - API's
+   - Cloud Infrastructure
+   - Database Administration
 
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  Systems Administration – Setting up, configuring and customizing Linux systems remotely on a shared environment, VPS, and cloud infrastructure. Installing, configuring and customizing Apache, NginX, PHP, Python and Node builds. Setting up and configure SSL and server health scripts. Writing scalable and cost effective auto-scaling scripts and implementation.
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  Database Administration – Setting up and configuring MySQL, PosGreSQL, MongoDB, CouchDB remotely on a shared environment, VPS, or cloud infrastructure. Writing scalable backup scripts. Installing and configuring SQL databases with NoSQL functionality (hybrid). Optimizing database queries. Maintaining and migrating databases larger than 4GB. Creating and maintaining read/write replicas and shards. Writing scalable and cost effective auto-scaling scripts and implementation.
+
+  Cache Administration – Setting up and configuring MemCache, Redis, MongoDB, Solr and Sphinx remotely on a VPS and cloud infrastructure. Writing scalable backup scripts. Optimizing search rules. Maintaining and migrating data larger than 4GB. Creating and maintaining read/write replicas and shards. Writing scalable and cost effective auto-scaling scripts and implementation.
+
+  Version Control Management – Maintaining open source, private and personal GitHub repositories. Clearly describing commits and merges. Frequently comments on commits by others and contributes to the Open Source community. Follows the GIT or GitHub Flow. Effectively create version releases on GitHub and NPM.
+
+  Open Source Management – Frequently answers questions regarding code created by the company with an open source license. Takes initiative in turning around quick fixes. Promotes the company’s open source efforts through events, articles and word of mouth. Supports the companies open source initiatives.
+
+  Quality Control and Continuous Integration – Setup and configure GitHub open source, private and personal repositories with Travis CI and Coveralls. Writes test suites (unit and functional). Writes hooks from GitHub and Travis to staging and production environments. Integrates Selenium scripts into test suites using Phantom JS/Ghost. Recreate issues clearly. Strictly does not perform work on out of scope items unless authorized by the team lead or project manager. Identify problem sources and recommended absolutions. Escalates and asks for advice about issues when frequently. Uses GitHub issue tracking properly. Sets milestones to a set of issues. Replies to project managers and team leads frequently.
+
+  Back End Development – Converts business requirements into objects, event and actions. Creates a usable interface to control objects. Converts events and actions to APIs. Writes code methodically for readability, scalability and reusability. Identifies potential security vulnerabilities and scalability problems before and during development. Documents on written code religiously. Primarily uses object oriented PHP and Node for backend development.
+
+  API Development – Translate Facebook, Twitter, Google, PayPal and other popular global and local API documentations into code contributing to the company’s open source libraries. Develops OAuth v2 and v3 specifications for authentication. Writes tests using REST and PhantomJS before development and submission to the company’s open source libraries.
+
+  Web Development – Creates SEO optimized and mobile responsive HTML5 with CSS3. Implementing Twitter Bootstrap in projects. Properly uses meta and header tags whenever possible. Alphabetizes CSS styles. Uses jQuery to develop interactions and user interfaces. Writes object oriented JavaScript. Applies objects, events and actions in a front end environment. Maintaining an HTML5 Boilerplate. Cases for browser quirks. Writes code using syncronous, require and promises. Writes code methodically for readability, scalability and reusability. Identifies potential security vulnerabilities and scalability problems before and during development. Documents on written code religiously.
 
 # Footer
 footer_show_references: false

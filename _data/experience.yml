@@ -1,9 +1,52 @@
 # Experience template
-- company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
+- company: Sterling Technologies
+  link: https://sterlingtech.ph/
+  job_title: Web Developer
+  dates: March 2014 - Present
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    Skills PHP, MySQL, Ajax, jQuery, Javascript, HTML5, CSS3, XML
+
+    Developing and maintaining the front end functionality of websites
+
+    Writing cross-browser compliant XHTML, CSS & JavaScript
+
+    Developing websites that have a consistent feel and look throughout all web properties
+
+    Testing a website & identifying bugs & technical problems
+
+    Developing cross-browser and cross-platform compatible solutions
+
+    Creating websites that are user-friendly, effective and appealing
+
+    Producing, modifying and maintaining websites and web applications
+
+    Creating quality web pages
+
+    Optimizing web assets for optimal speed and performance
+
+    Extensive Knowledge of databases, servers, operating systems
+
+- company: Cyber City Teleservices
+  job_title: MIS Specialist
+  dates: February 2011 - April 2013
+  description: | # this will include new lines to allow paragraphs
+    COORDINATES WITH: ACCOUNT EXECUTIVES, US OPERATIONS, CLIENTS, PROJECT MANAGERS, SALES MANAGERS, SUPERVISORS, SALES COACHES, QA ANALYST, TRAINERS, TECH SUPPORT GROUP, MIS MAINTENANCE
+
+    Quality assurance review through multiple QA programs 100%
+    and website validations (ZIP4, USPS, White Pages and Westminster )
+
+    Responsible for maintaining the quality of data being processed, data meets requirements & objectives, data validity, verification and quality
+
+    Provide feedback to all coordinated departments regarding quality assurance and information regarding detected deficiencies and corrective action needed, following-up with the departments involved until deficiencies are resolved
+
+    Submits, Generates, Uploads, Ensure compliance, preparation of reports, compiles cross-departmental reports as needed for billing and management, and attends to various department's general business operation
+
+    Reports on content of reporting requirements data, quickly and
+    manually enters information/ figures accurately when customized reports are demanded
+
+    Complete reports for 50+ clients and provide 200+ reports on a daily and weekly , review reports from Main CMS, Back Up CMS and CMS SQL
+    prior to submitting them to specified various recipients
+
+    Used Lotus Notes and Visual Cron for sending and emailing
+
+    Upload reports using FTP site

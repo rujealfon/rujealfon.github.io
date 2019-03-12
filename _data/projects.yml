@@ -1,8 +1,67 @@
 # Project template
-- name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+- name: Galleon PH
+  link: http://galleon.ph
+  github: Sterling-Galleon/galleonph
   quote: >
-    Short overview of the project (optional)
+    Front-End, Back-End Developer / January 2019
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    Buy Products not in the Philippines
+
+- name: TripZeeker
+  link: http://tripzeeker.com
+  github: Sterling-Technologies/TripZeeker
+  quote: >
+    Front-End, Back-End Developer / January 2018
+  description: | # this will include new lines to allow paragraphs
+    Online Bazaar of Travel Experiences
+
+- name: Jobayan
+  link: http://jobayan.com
+  github: Sterling-Technologies/Jobayan
+  quote: >
+    Front-End, Back-End Developer / January 2017
+  description: | # this will include new lines to allow paragraphs
+    Fastest Growing Job Community, the Millennial Way to Find Jobs
+
+- name: Galleon PH Order Processing System
+  link: http://ops.galleon.ph
+  github: Sterling-Galleon/ops
+  quote: >
+    Front-End, Back-End Developer / November 2016
+  description: | # this will include new lines to allow paragraphs
+    Integration of user-facing elements developed by a front-end developers with server side logic
+
+- name: Dealcha
+  link: http://dealcha.com
+  github: Sterling-Galleon/Dealcha
+  quote: >
+    Front-End / September 2016
+  description: | # this will include new lines to allow paragraphs
+    Thailand shopback website
+
+- name: CheckMeOut
+  link: http://www.checkmeout.ph
+  github: Sterling-Technologies/checkmeout
+  quote: >
+    Front-End Developer / October 2016
+  description: | # this will include new lines to allow paragraphs
+    A newly released Bootsrap was used in this project which is the version 3.
+    Gives the development much more faster and much more easy.
+
+- name: ShippingCart
+  link: http://www.shippingcart.com
+  github: Sterling-Technologies/lbcshippingcart
+  quote: >
+    Front-End Developer / October 2014
+  description: | # this will include new lines to allow paragraphs
+    Node.js was used when this project started. Its my first time to used another framework on a web project.
+    And so far the goal has been achieved which is to write a large scale website in that kind of framework.
+
+- name: Yipida
+  link: http://yipida.com
+  github: Sterling-Technologies/yipida
+  quote: >
+    Front-End Developer / March 2014
+  description: | # this will include new lines to allow paragraphs
+    We experiment in this project by using semantic-ui for CSS framework rather than using the very popular bootsrap.
+    A good choice because of its neat user interface.
