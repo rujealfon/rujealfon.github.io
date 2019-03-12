@@ -41,7 +41,6 @@ about_content: | # this will include new lines to allow paragraphs
    - Cloud Infrastructure
    - Database Administration
 
-# More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   Systems Administration – Setting up, configuring and customizing Linux systems remotely on a shared environment, VPS, and cloud infrastructure. Installing, configuring and customizing Apache, NginX, PHP, Python and Node builds. Setting up and configure SSL and server health scripts. Writing scalable and cost effective auto-scaling scripts and implementation.
