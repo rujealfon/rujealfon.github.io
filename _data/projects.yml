@@ -5,14 +5,6 @@
   description: | # this will include new lines to allow paragraphs
     Building an application that will automate the process flow of gauge change. This project aims to automate the business workflow and consolidate the different processes into a single platform
 
-          - Developing user-facing applications using Vue.js
-          - Building modular and reusable components and libraries
-          - Optimizing your application for performance
-          - Implementing automated testing integrated into development and maintenance workflows
-          - Staying up-to-date with all recent developments in the JavaScript and Vue.js space
-          - Keeping an eye on security updates and issues found with Vue.js and all project dependencies
-          - Proposing any upgrades and updates necessary for keeping up with modern security and development best practices
-
 - name: Galleon PH
   link: http://galleon.ph
   github: Sterling-Galleon/galleonph
