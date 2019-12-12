@@ -20,7 +20,15 @@ linkedin_username: rujealfon
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   A technically savvy web developer, has a long track record of creating dynamic, rich and interesting web portals, and of providing long term solutions to front-end problems. Working in a fast paced environment and producing a high volume of websites. Responsible for participating in the full life cycle of new website development projects, and for implement and maintaining best practice procedures in all areas of work. Also in charge of writing, developing and managing the content of websites. Designing, coding and modifying websites, from layout to function and according to a client's specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation.
-
+  
+   - Highly proficient with Vue.js framework and its core principles such as components, reactivity, and the virtual DOM
+   - Familiarity with the Vue.js ecosystem, including Vue CLI, Vuex, Vue Router, and Nuxt.js
+   - Knowledge of functional programming and object-oriented programming paradigms
+   - Ability to write efficient, secure, well-documented, and clean JavaScript code
+   - Proficiency with modern development tools, like Babel, Webpack, and Git
+   - Experience with both consuming and designing RESTful APIs
+   - Good understanding of HTML5 and CSS3, including Sass
+    
    - JavaScript
    - VueJs
    - JQuery
