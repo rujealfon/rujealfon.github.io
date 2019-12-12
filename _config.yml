@@ -28,22 +28,6 @@ about_content: | # this will include new lines to allow paragraphs
    - Proficiency with modern development tools, like Babel, Webpack, and Git
    - Experience with both consuming and designing RESTful APIs
    - Good understanding of HTML5 and CSS3, including Sass
-   - JavaScript
-   - VueJs
-   - JQuery
-   - HTML
-   - HTML5
-   - CSS
-   - CSS3
-   - Web Programming Skills
-   - Cross-Browser Compatibility
-   - Web User Interface Design (UI)
-   - Security Principles
-   - Object-Oriented Design
-   - Web Services (REST)
-   - Cloud Infrastructure
-   - Database Administration
-   - Teamwork
 
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
