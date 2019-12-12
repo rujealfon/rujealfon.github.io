@@ -30,6 +30,14 @@ about_content: | # this will include new lines to allow paragraphs
    - CSS3
    - AWS Web Services
 
+    - Developing user-facing applications using Vue.js
+    - Building modular and reusable components and libraries
+    - Optimizing your application for performance
+    - Implementing automated testing integrated into development and maintenance workflows
+    - Staying up-to-date with all recent developments in the JavaScript and Vue.js space
+    - Keeping an eye on security updates and issues found with Vue.js and all project dependencies
+    - Proposing any upgrades and updates necessary for keeping up with modern security and development best practices
+
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   Systems Administration – Setting up, configuring and customizing Linux systems remotely on a shared environment, VPS, and cloud infrastructure. Installing, configuring and customizing Apache, NginX, PHP and Node builds. Setting up and configure SSL and server health scripts. Writing scalable and cost effective auto-scaling scripts and implementation.
