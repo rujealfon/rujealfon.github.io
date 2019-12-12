@@ -28,7 +28,6 @@ about_content: | # this will include new lines to allow paragraphs
    - Proficiency with modern development tools, like Babel, Webpack, and Git
    - Experience with both consuming and designing RESTful APIs
    - Good understanding of HTML5 and CSS3, including Sass
-    
    - JavaScript
    - VueJs
    - JQuery
