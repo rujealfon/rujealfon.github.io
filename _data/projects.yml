@@ -1,4 +1,11 @@
 # Project template
+- name: PizzaHut
+  link: https://www.pizzahut.com.au
+  quote: >
+    Front-End Developer/ March 2020
+  description: | # this will include new lines to allow paragraphs
+    Implement Zip payment method on the checkout page
+
 - name: Scoot Gauge Change
   link: https://gaugechange.flyscootca.com
   quote: >
