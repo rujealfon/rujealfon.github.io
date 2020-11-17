@@ -11,7 +11,7 @@
   quote: >
     Front-End/UI Developer / October 2019
   description: | # this will include new lines to allow paragraphs
-    Building an application that will automate the process flow of gauge change. This project aims to automate the business workflow and consolidate the different processes into a single platform
+    Building an application that will automate the process flow of gauge change using nuxt.js. This project aims to automate the business workflow and consolidate the different processes into a single platform
 
 - name: Galleon PH
   link: http://galleon.ph
