@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruje Alfon - Senior Frontend Web Developer (Printable)</title>
+    <style>
+        /* Print-specific styles */
+        @media print {
+            * {
+                -webkit-print-color-adjust: exact !important;
+                color-adjust: exact !important;
+            }
+
+            body {
+                font-size: 12pt !important;
+                line-height: 1.4 !important;
+                color: #000 !important;
+                background: white !important;
+            }
+
+            .page-break {
+                page-break-before: always;
+            }
+
+            .no-print {
+                display: none !important;
+            }
+
+            a {
+                color: #000 !important;
+                text-decoration: underline !important;
+            }
+
+            .print-url::after {
+                content: " (" attr(href) ")";
+                font-size: 10pt;
+                color: #666;
+            }
+        }
+
+        /* Base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 24pt;
+            font-weight: bold;
+            margin-bottom: 8pt;
+            color: #000;
+            text-align: center;
+            border-bottom: 2pt solid #000;
+            padding-bottom: 4pt;
+        }
+
+        h2 {
+            font-size: 16pt;
+            font-weight: bold;
+            margin: 16pt 0 8pt 0;
+            color: #000;
+            border-bottom: 1pt solid #666;
+            padding-bottom: 2pt;
+        }
+
+        h3 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin: 12pt 0 6pt 0;
+            color: #000;
+        }
+
+        p {
+            margin-bottom: 8pt;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 8pt 0;
+            padding-left: 20pt;
+        }
+
+        li {
+            margin-bottom: 4pt;
+        }
+
+        /* Contact Information */
+        .contact-header {
+            text-align: center;
+            margin-bottom: 16pt;
+            border-bottom: 1pt solid #ccc;
+            padding-bottom: 12pt;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20pt;
+            margin-top: 8pt;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            font-size: 10pt;
+        }
+
+        /* Skills grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12pt;
+            margin: 8pt 0;
+        }
+
+        .skill-category {
+            break-inside: avoid;
+        }
+
+        .skill-category h4 {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-bottom: 4pt;
+            color: #000;
+        }
+
+        .skill-list {
+            font-size: 10pt;
+            line-height: 1.3;
+        }
+
+        /* Experience and Projects */
+        .experience-item, .project-item {
+            margin-bottom: 16pt;
+            break-inside: avoid;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 12pt;
+        }
+
+        .company {
+            font-style: italic;
+            color: #666;
+        }
+
+        .date-range {
+            float: right;
+            font-size: 10pt;
+            color: #666;
+        }
+
+        .project-tech {
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+            margin-top: 4pt;
+        }
+
+        /* Links */
+        a {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        /* Two column layout for larger sections */
+        .two-column {
+            column-count: 2;
+            column-gap: 20pt;
+            column-rule: 1pt solid #ccc;
+        }
+
+        .break-inside-avoid {
+            break-inside: avoid;
+        }
+
+        /* Summary section */
+        .summary {
+            background: #f5f5f5;
+            padding: 12pt;
+            margin: 12pt 0;
+            border: 1pt solid #ccc;
+        }
+
+        @media screen {
+            body {
+                max-width: 800px;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="contact-header">
+        <h1>Ruje Alfon</h1>
+        <p style="font-size: 14pt; margin: 4pt 0; font-weight: bold;">Senior Frontend Web Developer</p>
+        <div class="contact-info">
+            <div class="contact-item">📧 rujealfon@gmail.com</div>
+            <div class="contact-item">📱 +639053801178</div>
+            <div class="contact-item">🌐 <a href="https://rujealfon.github.io" class="print-url">rujealfon.github.io</a></div>
+            <div class="contact-item">💻 <a href="https://github.com/rujealfon" class="print-url">github.com/rujealfon</a></div>
+        </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section>
+        <h2>Professional Summary</h2>
+        <div class="summary">
+            <p>Highly experienced Senior Frontend Web Developer with over 10 years of expertise in creating dynamic, responsive, and user-centric web applications. Specialized in Vue.js ecosystem with comprehensive knowledge of modern JavaScript frameworks, cloud technologies, and full-stack development practices. Proven track record of delivering high-quality solutions for enterprise-level applications and e-commerce platforms.</p>
+        </div>
+    </section>
+
+    <!-- Core Competencies -->
+    <section>
+        <h2>Core Competencies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Frontend Technologies</h4>
+                <ul class="skill-list">
+                    <li>Vue.js (Expert)</li>
+                    <li>JavaScript ES6+</li>
+                    <li>HTML5 & CSS3</li>
+                    <li>TypeScript</li>
+                    <li>React.js</li>
+                    <li>Angular</li>
+                    <li>jQuery</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Styling & UI</h4>
+                <ul class="skill-list">
+                    <li>Tailwind CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Sass/SCSS</li>
+                    <li>CSS Grid & Flexbox</li>
+                    <li>Responsive Design</li>
+                    <li>UI/UX Principles</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Tools & Technologies</h4>
+                <ul class="skill-list">
+                    <li>Git & GitHub</li>
+                    <li>Webpack & Vite</li>
+                    <li>npm & Yarn</li>
+                    <li>AWS Services</li>
+                    <li>Docker</li>
+                    <li>CI/CD Pipelines</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Backend & Database</h4>
+                <ul class="skill-list">
+                    <li>Node.js</li>
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>CMS & E-commerce</h4>
+                <ul class="skill-list">
+                    <li>WordPress</li>
+                    <li>Shopify</li>
+                    <li>Magento</li>
+                    <li>Drupal</li>
+                    <li>Custom CMS</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Development Practices</h4>
+                <ul class="skill-list">
+                    <li>Agile/Scrum</li>
+                    <li>Test-Driven Development</li>
+                    <li>Code Review</li>
+                    <li>Performance Optimization</li>
+                    <li>SEO Best Practices</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section>
+        <h2>Professional Experience</h2>
+
+        <div class="experience-item">
+            <div class="job-title">Senior Frontend Web Developer</div>
+            <div class="company">BCS Technology International Pty Ltd</div>
+            <div class="date-range">September 2021 - Present</div>
+            <div style="clear: both;"></div>
+            <ul>
+                <li>Lead frontend development for enterprise-level applications using Vue.js and modern JavaScript frameworks</li>
+                <li>Architect and implement responsive, cross-browser compatible user interfaces</li>
+                <li>Collaborate with cross-functional teams to deliver high-quality web solutions</li>
+                <li>Optimize application performance and implement SEO best practices</li>
+                <li>Mentor junior developers and conduct code reviews</li>
+                <li>Integrate with various APIs and third-party services</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Frontend Web Developer</div>
+            <div class="company">Various Clients (Freelance)</div>
+            <div class="date-range">2014 - 2021</div>
+            <div style="clear: both;"></div>
+            <ul>
+                <li>Developed custom web applications for diverse industry clients</li>
+                <li>Specialized in e-commerce solutions using Shopify, Magento, and custom platforms</li>
+                <li>Implemented responsive designs and mobile-first approaches</li>
+                <li>Worked with content management systems including WordPress and Drupal</li>
+                <li>Provided ongoing maintenance and support for client websites</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Web Developer</div>
+            <div class="company">Early Career Positions</div>
+            <div class="date-range">2012 - 2014</div>
+            <div style="clear: both;"></div>
+            <ul>
+                <li>Built foundational skills in web development technologies</li>
+                <li>Developed static and dynamic websites using HTML, CSS, and JavaScript</li>
+                <li>Learned backend technologies including PHP and MySQL</li>
+                <li>Gained experience with version control and development workflows</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="page-break"></div>
+
+    <!-- Featured Projects -->
+    <section>
+        <h2>Featured Projects</h2>
+
+        <div class="project-item">
+            <h3>Pizza Hut Australia - E-commerce Platform</h3>
+            <p><strong>Role:</strong> Lead Frontend Developer</p>
+            <p>Developed and maintained the official Pizza Hut Australia e-commerce platform, handling high-volume online orders and customer interactions. Implemented responsive design, payment gateway integration, and real-time order tracking.</p>
+            <div class="project-tech"><strong>Technologies:</strong> Vue.js, JavaScript, HTML5, CSS3, API Integration, Payment Systems</div>
+            <p><strong>URL:</strong> <a href="https://www.pizzahut.com.au" class="print-url">pizzahut.com.au</a></p>
+        </div>
+
+        <div class="project-item">
+            <h3>Scoot Airlines - Gauge Change Platform</h3>
+            <p><strong>Role:</strong> Frontend Developer</p>
+            <p>Built a dynamic platform for Scoot Airlines' gauge change operations, featuring real-time data visualization, responsive interfaces, and seamless user experience across devices.</p>
+            <div class="project-tech"><strong>Technologies:</strong> Vue.js, Real-time Data, Responsive Design, API Integration</div>
+            <p><strong>URL:</strong> <a href="https://gaugechange.flyscootca.com" class="print-url">gaugechange.flyscootca.com</a></p>
+        </div>
+
+        <div class="project-item">
+            <h3>Galleon.ph - E-commerce Marketplace</h3>
+            <p><strong>Role:</strong> Full Stack Developer</p>
+            <p>Developed a comprehensive e-commerce marketplace connecting buyers and sellers, featuring advanced search functionality, seller dashboards, and secure payment processing.</p>
+            <div class="project-tech"><strong>Technologies:</strong> PHP, JavaScript, MySQL, E-commerce Integration, Payment Gateways</div>
+            <p><strong>URL:</strong> <a href="http://galleon.ph" class="print-url">galleon.ph</a></p>
+        </div>
+
+        <div class="project-item">
+            <h3>TripZeeker - Travel Booking Platform</h3>
+            <p><strong>Role:</strong> Frontend Developer</p>
+            <p>Created an intuitive travel booking platform with advanced search filters, interactive maps, and seamless booking workflows. Focused on user experience and mobile responsiveness.</p>
+            <div class="project-tech"><strong>Technologies:</strong> JavaScript, Responsive Design, API Integration, Interactive Maps</div>
+            <p><strong>URL:</strong> <a href="http://tripzeeker.com" class="print-url">tripzeeker.com</a></p>
+        </div>
+
+        <div class="project-item">
+            <h3>Jobayan - Job Portal Platform</h3>
+            <p><strong>Role:</strong> Full Stack Developer</p>
+            <p>Built a job portal connecting employers and job seekers, featuring advanced search capabilities, application tracking, and employer dashboards.</p>
+            <div class="project-tech"><strong>Technologies:</strong> PHP, JavaScript, Database Design, User Authentication</div>
+            <p><strong>URL:</strong> <a href="http://jobayan.com" class="print-url">jobayan.com</a></p>
+        </div>
+
+        <div class="project-item">
+            <h3>ShippingCart - Logistics Platform</h3>
+            <p><strong>Role:</strong> Frontend Developer</p>
+            <p>Developed a comprehensive logistics and shipping management platform with real-time tracking, automated workflows, and customer management systems.</p>
+            <div class="project-tech"><strong>Technologies:</strong> JavaScript, Real-time Tracking, API Integration, Dashboard UI</div>
+            <p><strong>URL:</strong> <a href="http://www.shippingcart.com" class="print-url">shippingcart.com</a></p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+        <div class="experience-item">
+            <div class="job-title">Bachelor of Science in Information Technology</div>
+            <div class="company">Saint Joseph Institute of Technology</div>
+            <div class="date-range">2008 - 2012</div>
+            <div style="clear: both;"></div>
+            <p>Comprehensive study of computer science fundamentals, software development, database management, and information systems.</p>
+        </div>
+    </section>
+
+    <!-- Certifications & Achievements -->
+    <section>
+        <h2>Key Achievements</h2>
+        <ul>
+            <li>10+ years of professional web development experience</li>
+            <li>Successfully delivered 50+ web projects across various industries</li>
+            <li>Expertise in modern JavaScript frameworks and emerging technologies</li>
+            <li>Strong track record of optimizing website performance and user experience</li>
+            <li>Experience with high-traffic e-commerce platforms and enterprise applications</li>
+            <li>Proficient in both frontend and backend development technologies</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer style="margin-top: 24pt; padding-top: 12pt; border-top: 1pt solid #ccc; text-align: center; font-size: 10pt; color: #666;">
+        <p>© 2025 Ruje Alfon. All rights reserved.</p>
+        <p class="no-print">This document is optimized for printing. For the interactive version, visit: <a href="https://rujealfon.github.io">rujealfon.github.io</a></p>
+    </footer>
+
+    <script>
+        // Print-friendly script
+        window.onload = function() {
+            // Add print styles to external links
+            const links = document.querySelectorAll('a[href^="http"]');
+            links.forEach(link => {
+                if (!link.classList.contains('print-url')) {
+                    link.classList.add('print-url');
+                }
+            });
+        };
+
+        // Optional: Auto-print when opened
+        // window.print();
+    </script>
+</body>
+</html>
