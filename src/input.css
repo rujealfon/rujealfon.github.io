@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@theme {
+  /* Vue.js official colors */
+  --color-vue-green: #42b883;        /* Vue.js Ocean Green (official) */
+  --color-vue-blue: #35495e;         /* Vue.js Pickled Bluewood (official) */
+
+  /* Nuxt-inspired color palette */
+  --color-nuxt-dark: #020420;        /* Nuxt's official gray (darker backgrounds) */
+  --color-nuxt-canvas: #0c0d1a;      /* Slightly lighter dark for cards */
+  --color-nuxt-surface: #1a1b2e;     /* Surface elements */
+  --color-nuxt-border: #2a2d3e;      /* Borders */
+  --color-nuxt-accent: #42b883;      /* Primary Nuxt green */
+  --color-nuxt-success: #42b883;     /* Success states (same as accent) */
+  --color-nuxt-secondary: #34D399;   /* Secondary green */
+  --color-nuxt-attention: #EF4444;   /* Red for warnings/errors */
+  --color-nuxt-severe: #F97316;      /* Orange for severe states */
+  --color-nuxt-done: #8B5CF6;        /* Purple for completed states */
+  --color-nuxt-fg-default: #F8FAFC;  /* Default text color */
+  --color-nuxt-fg-muted: #94A3B8;    /* Muted text */
+  --color-nuxt-fg-subtle: #64748B;   /* Subtle text */
+  --color-nuxt-green: #42b883;       /* Main brand green */
+  --color-nuxt-white: #FFFFFF;       /* Pure white */
+  --color-nuxt-gray: #020420;        /* Official Nuxt gray */
+
+  /* Font families */
+  --font-family-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-mono: 'SF Mono', Monaco, Inconsolata, 'Roboto Mono', 'Source Code Pro', monospace;
+}
+
+/* Inter Font System - Same as Vue.js website */
+:root {
+    --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-family-mono: 'SF Mono', Monaco, Inconsolata, 'Roboto Mono', 'Source Code Pro', monospace;
+}
+
+/* Global font application */
+* {
+    font-family: var(--font-family-base);
+}
+
+/* Code and monospace elements */
+code, pre, .font-mono {
+    font-family: var(--font-family-mono);
+}
+
+/* Headings optimization */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-base);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+/* Body text optimization */
+body {
+    font-family: var(--font-family-base);
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1b2e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #42b883;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #369870;
+}
+
+/* Smooth transitions for all interactive elements */
+a, button, input, textarea, select {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Focus states */
+a:focus, button:focus, input:focus, textarea:focus, select:focus {
+    outline: 2px solid #42b883;
+    outline-offset: 2px;
+}
+
+/* Loading animation keyframes */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+
+/* Custom utilities */
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-bounce {
+    animation: bounce 1s infinite;
+}
+
+/* Gradient text effect */
+.gradient-text {
+    background: linear-gradient(135deg, #42b883, #34D399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Glassmorphism effect */
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Card hover effects */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(66, 184, 131, 0.2);
+}
